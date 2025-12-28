@@ -62,5 +62,4 @@ def run_pipeline(image_path):
 
 
 if __name__ == "__main__":
-    # Ensure you have a file named 'test_image.jpg' in the same folder
     run_pipeline('test_image.jpg')
