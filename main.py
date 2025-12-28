@@ -8,9 +8,9 @@ def run_pipeline(image_path):
     try:
         raw_image = Image.open(image_path)
         image = np.array(raw_image)
-        print(f"✅ Image loaded successfully. Shape: {image.shape}")
+        print(f"Image loaded successfully. Shape: {image.shape}")
     except FileNotFoundError:
-        print("❌ Error: Image file not found. Please check the filename.")
+        print("Error: Image file not found. Please check the filename.")
         return
 
     # --- NumPy Data Augmentation Pipeline ---
